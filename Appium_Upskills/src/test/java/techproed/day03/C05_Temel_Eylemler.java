@@ -47,7 +47,7 @@ public class C05_Temel_Eylemler {
         driver.findElement(leftButtom).click();
 
         driver.findElement(rightTextBox).clear();
-        driver.setClipboardText("Gürkay");
+        driver.setClipboardText("Kart");
         Thread.sleep(2000);
         driver.findElement(rightTextBox).sendKeys(driver.getClipboardText());
         Thread.sleep(2000);
